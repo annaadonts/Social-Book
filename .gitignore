@@ -2,10 +2,15 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+db.sqlite3
 # C extensions
 *.so
 
+# Only for Development only
+core/migrations/
+/migrations/
+/migrations
+/migrations/__init__.py
 # Distribution / packaging
 .Python
 build/
